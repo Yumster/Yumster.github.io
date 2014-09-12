@@ -1,0 +1,81 @@
+//** 
+***Front Stylesheet*** 
+**//
+	
+/* apply a natural box layout model to all elements, but allowing components to change_PAul Irish*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background: linear-gradient(to bottom, #d3d3d3, #efefef);
+}
+
+/* FORM */
+form {
+    width:500px;
+    margin:50px auto;
+}
+
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+}
+
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+
+/* GENERAL elements */
+a{
+    text-decoration: none;   
+}
+
+li{
+    list-style-type: none;
+}
+
+.bold{
+    font-weight: bold;   
+}
+
+.text-below{
+    font-style: italic;
+    color: #00c4ff;
+}
+
+/* BANNER */
+#banner{
+    /*background-color: #019af0;*/
+    background: radial-gradient(circle, #59c1ff, #0089ba);
+    color: white;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #4b4b4b;
+    color: #e6e6e6;
+}
+
+.footer.bottom{
+    background-color: #dbdbdb;
+    color: #9f9f9f;
+}
