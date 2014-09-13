@@ -268,6 +268,10 @@ h6{
     list-style-image: url(../img/footer/col2-talking.png);
 }
 
+.section li:nth-child(2n+2){
+    list-style: none;
+}
+
 .footer-bottom{
     clear: both;
     width: 100%;
