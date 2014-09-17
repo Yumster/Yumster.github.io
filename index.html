@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charser="uft-8">
-    <link type="text/css" href="CSS/normalize.css" rel="stylesheet">
-    <link type="text/css" href="CSS/home.css" rel="stylesheet">
-    <link type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<head>    
+    <meta charset="utf-8">
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <link href="CSS/home.css" rel="stylesheet" >
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" type="text/css" >
+    <title>Final Project_Biscuit Cafe</title>
     <title>WDIM268 Final Project</title>
 </head>
 
 <!-- HEADER -->
     <header>
-        
-        <div class="top-stripe">
-            <ul>
-                <li><img src="img/header/logo.png" alt="logo"></li>
-                <li><h1>Final project website</h1></li>
-            </ul>
-            <div class="search-bar">
-                <img src="img/header/searchbar.png" alt="searchbar">
+        <div class="top-wrapper">
+            <div class="top-stripe">    
+                <ul>
+                    <li><img src="img/header/logo.png" alt="logo"></li>
+                    <li><h1>Final project website</h1></li>
+                </ul>
+                <div class="search-bar">
+                    <img src="img/header/searchbar.png" alt="searchbar">
+                </div>
             </div>
         </div>
+        
         
         <!-- NAVIGATION bar -->
         <nav>
@@ -60,35 +63,45 @@
             <img src="img/main/bannerscreen.png" alt="bannerscreen">    
         </figure>
     </div><!-- END of banner -->
-        
-        
-        
+ 
 <!-- MAIN content -->
-    <section id="main">
-        <img src="img/main/navbar.png" alt="searchbar">
+    <section class="main">
+        <div class="main-content">
+            <img class="navbar-img" src="img/main/navbar.png" alt="searchbar">    
+            <figure><img src="img/main/helloscreen.png" alt="helloscreen">
+            <p><span class="text-below">Freelance Designer</span> - January 2009</p></figure>
         
-        <img src="img/main/helloscreen.png" alt="helloscreen">
-        <p><span class="text-below">Freelance Designer</span> - January 2009</p>
-        
-        <h4>We make the best websites!</h4>
-        <p>Because web design is our passion and that's what we do.</p>
-        <ul>
-            <li>Design</li>
-            <li>(X)HTM/CSS</li>
-            <li>Javascript</li>
-            <li>Custom CMS (BVD)</li>
-            <li>Project management</li>
-            <li>Hosting</li>
-            <li>Support</li>
-        </ul>
-        <p>Gratuitous octopus niacin, sodium glutimate. Qupte meon an estimate et non interruptus stadium.</p>
-        
+            <div class="content-right">
+                <h2>We make the best websites!</h2>
+                <p>Because web design is our passion and that's what we do.</p>
+                   <div class="in-list">
+                       <div class="list left">
+                           <ul>
+                                <li>Design</li>
+                                <li>(X)HTM/CSS</li>
+                                <li>Javascript</li>
+                                <li>Custom CMS (BVD)</li>
+                            </ul>
+                        </div>
+                        <div class="list right">
+                            <ul>
+                                <li>Project management</li>
+                                <li>Hosting</li>
+                                <li>Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                <p>Gratuitous octopus niacin, sodium glutimate. Qupte meon an estimate et non interruptus stadium.</p>
+            </div>
+            
         <!-- REVIEW area -->
         <div class="main-bottom">
-            <p>WDIM268 is the best agency I've ever worked with...</p>
-            <blockquote>"These guys are simply awesome. I sent them my brief, they answered within few hours and one week later they delivered me the best design ever!"</blockquote>
-            <p><a href="#">SEE WHAT OTHERS ARE SAYING</a></p>
-            <img src="http://placekitten.com/g/200/50" alt="searchbar">
+            <div class="bottom-content">
+                <h4>WDIM268 is the best agency I've ever worked with...</h4>
+                <blockquote>"These guys are simply awesome. I sent them my brief, they answered within few hours and one week later they delivered me the best design ever!"</blockquote>
+                <p class="button-main"><a href="#">SEE WHAT OTHERS ARE SAYING</a></p>
+                <img src="img/awesomeness.png" alt="searchbar">
+            </div>
         </div>
     </section><!-- END of main content -->
 
@@ -98,7 +111,7 @@
         
 <!-- FOOTER -->
     <footer>
-        <!--col1-->       
+        <!-- col1 -->       
             <div class="section one">
                     <h5>LATEST BLOG ENTRIES</h5>
                     <ul>
@@ -111,7 +124,7 @@
                     </ul>
             </div>  
 
-        <!--col2-->            
+        <!-- col2 -->            
             <div class="section two"> 
                     <h5>RECENT COMMENTS</h5>
                     <ul>
@@ -124,13 +137,13 @@
                 </ul>
             </div>
         
-        <!--col3-->           
+        <!-- col3 -->           
             <div class="section three">
                 <h5>ADVERTISING</h5>       
                 <img src="img/footer/col3-img.png" alt="ads">
             </div>
         
-        <!--col4-->     
+        <!-- col4 -->     
             <div class="section four">
                 <h5>TWEETER STUFF</h5>  
                 <img src="img/footer/col4twitter-whole.png" alt="twitter">
@@ -157,6 +170,5 @@
                 </div>
             </div>
      </footer><!-- END of footer -->
-
 </body>
 </html>
