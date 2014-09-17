@@ -20,6 +20,7 @@ html {
 body{
     background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
+    color: #333;
 }
 
 
@@ -137,7 +138,121 @@ nav a:hover{
 }
 
 
+/* MAIN CONTENT */
+.main-background{
+    background: linear-gradient(rgb(222, 222, 222) 20%, rgb(247, 247, 247) 50%);
+    height: 100%;
+    padding-top: 30px;
+}
 
+.main-content{
+    width: 80%;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+
+
+/* LEFT side-bar */
+.left-bar{
+    width: 30%;
+    float: left;
+}
+
+.square{
+    width: 60%;
+    padding: 5px;
+    background-color: #f4f4f4;
+    text-align: left;
+}
+.europe{
+    width: 100%;
+}
+
+.asia{
+    width: 100%;
+}
+
+.square h4 {
+    color: #4e4e4e;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.square h5{
+    margin-top: 5px;
+}
+
+.square li{
+    margin-left: -30px;
+    color: #505050;
+}
+
+.square li:nth-child(2n+2){
+    margin-top: -20px;
+}
+
+.square-bottom{
+    width: 50%;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+
+
+/* RIGHT CONTENT */
+.content-right{
+    width: 75%;
+    float: left;
+    margin-left: -60px;
+    padding: 10px;
+}
+
+.content-right .red-words{
+    font-weight: bold;
+}
+
+.content-right h3{
+    margin-top: -10px;
+    color: #717171;
+    font-weight: 100;
+}
+
+form input{
+    background-color: rgba(152, 152, 152, 0.04);
+    width: 55%;
+    padding: 5px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+form input:nth-of-type(4){
+    height: 150px;
+}
+
+form input:nth-of-type(5){
+
+}
+
+.info-area{
+    width: 90%;
+    overflow: hidden;
+}
+
+.map-left{
+    width: 55%;
+    float: left;
+}
+
+.map-right{
+    width: 35%;
+    float: right;
+    margin-top: 60px;
+}
+
+    
 /* GENERAL elements */
 a{
     text-decoration: none;   
@@ -154,6 +269,10 @@ li{
 .text-below{
     font-style: italic;
     color: #00c4ff;
+}
+
+.red-words{
+    color: red;
 }
 
 
