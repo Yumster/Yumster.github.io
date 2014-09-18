@@ -1,6 +1,4 @@
-/** 
-***BLOG Stylesheet*** 
-**/
+/** BLOG Stylesheet **/
 	
 /* apply a natural box layout model to all elements, but allowing components to change_PAul Irish */
 
@@ -206,19 +204,13 @@ nav a:hover{
     font-style: italic;
 }
 
-article h3{
-    margin-top: -10px;
-    color: #717171;
-    font-weight: 100;
-}
-
-article h4{
-    margin-top: 40px;   
+article h2{
+    color: #343434;
 }
 
 .individual-content{
     padding: 0 5px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     border-bottom: 1px solid #c9c9c9;
 }
 
@@ -230,7 +222,6 @@ article>div:last-of-type{
     margin-top: -15px;
     margin-bottom: 25px;
 }
-
 
 
 /* GENERAL elements */
@@ -255,6 +246,11 @@ li{
     color: red;   
 }
 
+
+.current-page{
+    color: #1f1f1f;
+    font-weight: bold;
+}
 
 
 /* FOOTER */

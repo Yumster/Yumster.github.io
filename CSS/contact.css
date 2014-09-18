@@ -201,7 +201,6 @@ nav a:hover{
 }
 
 
-
 /* RIGHT CONTENT */
 .content-right{
     width: 75%;
@@ -214,8 +213,8 @@ nav a:hover{
     font-weight: bold;
 }
 
-.content-right h3{
-    margin-top: -10px;
+.content-right h2{
+    margin-top: -20px;
     color: #717171;
     font-weight: 100;
 }
@@ -242,7 +241,7 @@ form input:nth-of-type(5){
 }
 
 .map-left{
-    width: 55%;
+    width: 65%;
     float: left;
 }
 
@@ -273,6 +272,11 @@ li{
 
 .red-words{
     color: red;
+}
+
+.current-page{
+    color: #1f1f1f;
+    font-weight: bold;
 }
 
 

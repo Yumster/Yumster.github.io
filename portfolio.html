@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset=utf-8>
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/portfolio.css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" type="text/css" >
@@ -29,7 +30,7 @@
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="#">SERVICES</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a class="current-page" href="portfolio.html">PORTFOLIO</a></li>
                 <li><a href="blog.html">BLOG</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
                 <li><a href="pricing.html">PRICING</a></li>
@@ -38,59 +39,74 @@
         </nav><!-- END of navigation -->
     </header><!-- END of header -->
     
-<!-- MAIN content -->
-    <div class="content-wrapper">
-        
+    <div class="main-background">
+        <div class="main-content">
         <!-- LEFT _ SIDE BAR -->
-        <aside>
-            <h3>CATEGORIES</h3>
-            <ul>
-                <li>WEB DESIGN</li>
-                <li>PRINT DESIGN</li>
-                <li>MOTION</li>
-                <li>MULTIMEDIA</li>
-                <li>OTHER</li>
-            </ul>
+            <aside class="left-bar">
+            <div class="square">
+                <h3>CATEGORIES</h3>
+                <ul>
+                    <li>WEB DESIGN</li>
+                    <li>PRINT DESIGN</li>
+                    <li>MOTION</li>
+                    <li>MULTIMEDIA</li>
+                    <li>OTHER</li>
+                </ul>
+            </div>
 
-            <h4>Something about our <span class="red-words">web design</span></h4>
-            <p>Integer tortor elit, sagittis et diam hendrerit, vehicula eleifend elit. Suspendisse eu nunc maximus, maximus dolor at, aliquet sapien.</p>
-            <p>Aliquam aliquet, turpis ut facilisis blandit, est tortor interdum libero, id congue mi libero quis libero</p>
-            <p>Nam aliquam tincidunt massa sed interdum.</p>
-        </aside><!-- END of side bar -->
+            <div class="square-bottom"> 
+                <h4>Something about our <span class="red-words">web design</span></h4>
+                <p>Integer tortor elit, sagittis et diam hendrerit, vehicula eleifend elit.</p>
+                <p>Aliquam aliquet, turpis ut facilisis blandit, est tortor interdum libero.</p>
+                <p>Nam aliquam tincidunt massa sed interdum.</p>
+            </div>
+            </aside><!-- END of side bar -->
     
-<!---------Create wrapper------------>        
-        <!-- RIGHT _ content -->
-        <article>
-            <h2>Portfolio</h2>
-            <h3>We only create quality works</h3>
+        <!-- RIGHT _ CONTENT -->
+            <div class="content-right">
+                <h1>Portfolio</h1>
+                <h2>We only create quality works</h2>
 
-            <div class="first">
-                <img src="http://placekitten.com/g/100/100">
-                
-              <div class="first-right">
-                <h3>Idea - Gusiness design</h3>
-                <p>In <span class="red words">Websites</cpan>tagged <span class="red words">Themeforest</span>,<span class="red-words">Corporates</span></p>
-                <p>Integer tortor elit, sagittis et diam hendrerit, vehicula eleifend elit. Suspendisse eu nunc maximus, maximus dolor at, aliquet sapien.</p>
-                <p>Integer tortor elit, sagittis et diam hendrerit, vehicula eleifend elit. Suspendisse eu nunc maximus, maximus dolor at, aliquet sapien.</p>
-              </div>
-            </div>
+                <!-- first section -->
+                <div class="frame first">
+                    <figure><img src="img/portfolio/portfolio-1.png" alt="idea"></figure>
+                    <div class="first-right">
+                        <h3>Idea - Gusiness design</h3>
+                        <p>In <span class="red-words">Websites</span> tagged <span class="red-words">Themeforest</span>, <span class="red-words">Corporates</span></p>
+                        <p>Integer tortor elit, sagittis et diam hendrerit, vehicula eleifend elit. Suspendisse eu nunc maximus, maximus dolor at, aliquet sapien.</p>
+                        <p>Integer tortor elit, sagittis et diam hendrerit, vehicula eleifend elit. Suspendisse eu nunc maximus, maximus dolor at, aliquet sapien.</p>
+                    </div>
+                </div>
             
-            <div class="second">
-                <img src="http://placekitten.com/g/50/50">
-                <h5>PRO design</h5>
-                <p>Integer tortor elit, sagittis et diam hendrerit, vehicula eleifend elit. Suspendisse eu nunc maximus, maximus dolor at, aliquet sapien.</p>
-            </div>
+                <!-- second section -->
+                <div class="frame second">
+                    <figure><img src="img/portfolio/portfolio-2.png" alt="pro"></figure>
+                    <div class="next-img">
+                        <h5>PRO design</h5>
+                        <p>Integer tortor elit, sagittis et diam hendrerit, vehicula eleifend elit. Suspendisse eu nunc maximus, maximus dolor at, aliquet sapien.</p>
+                    </div>
+                </div>
             
-            <div class="third">
-                 <img src="http://placekitten.com/g/50/50">
-                <h5>Freelance designer</h5>
-            </div>
+                <!-- third section -->
+                <div class="frame third">
+                    <figure><img src="img/portfolio/portfolio-3.png" alt="freelance"></figure>
+                    <div class="next-img">
+                        <h5>Freelance designer</h5>
+                        <p>Integer tortor elit, sagittis et diam hendrerit, vehicula eleifend elit. Suspendisse eu nunc maximus, maximus dolor at, aliquet sapien.</p> 
+                    </div>
+                </div>
             
-            <div class="forth">
-                <img src="http://placekitten.com/g/50/50">
-                <h5>Freelance designer</h5>            
+                <!-- forth section -->
+                <div class="frame forth">
+                    <figure><img src="img/portfolio/portfolio-4.png" alt="awesome"></figure>
+                    <div class="next-img">
+                        <h5>Freelance designer</h5> 
+                        <p>Integer tortor elit, sagittis et diam hendrerit, vehicula eleifend elit. Suspendisse eu nunc maximus, maximus dolor at, aliquet sapien.</p> 
+                    </div>
+                </div>
             </div>
-         </article><!-- END of main-->
+        </div>
+    </div><!-- END of main-->
     
     
 <!-- FOOTER -->

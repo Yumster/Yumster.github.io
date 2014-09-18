@@ -138,6 +138,104 @@ nav a:hover{
 }
 
 
+/* MAIN CONTENT */
+.main-background{
+    background: linear-gradient(rgb(222, 222, 222) 20%, rgb(247, 247, 247) 50%);
+    height: 100%;
+    padding-top: 30px;
+}
+
+.main-content{
+    width: 80%;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+form{
+   width: 50%; 
+}
+
+input{
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #b1b1b1;
+    border-radius: 3px;
+}
+
+.left-content{
+    width: 60%;
+    float: left;
+}
+
+.right-content{
+    width: 25%;
+    float: right;
+    margin-top: 50px;
+}
+
+.right-content figure{
+    margin-left: 1%;
+}
+
+.info-within{
+    clear: both;
+    background: linear-gradient(rgb(232, 232, 232) 30%, rgb(248, 248, 248) 50%);
+    overflow: hidden;
+}
+
+.info-within{
+    padding: 10px 20px;
+}
+
+.column{
+    width: 23%;
+    display: inline-block;
+    margin-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #b4b4b4;
+}
+
+.column a{
+    color: #808080;
+}
+
+.column h4{
+    margin-top: -10px;
+}
+
+.column ul{
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+.column li{
+    margin-bottom: 10px;
+    list-style-image: url(../img/check-blue.png);
+}
+
+.price{
+    width: 100%;
+    display: inline-flex;
+}
+
+.price h2{
+    width: 50%;
+    color: #fd6300;
+}
+
+.price p{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: -15px;
+    color: #9d9d9d;
+}
+
+.column.four{
+    border-right: none; 
+}
+    
+
 
 /* GENERAL elements */
 a{
@@ -157,8 +255,10 @@ li{
     color: #00c4ff;
 }
 
-
-
+.current-page{
+    color: #1f1f1f;
+    font-weight: bold;
+}
 
 
 /* FOOTER */
