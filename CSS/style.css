@@ -9,7 +9,7 @@ html {
 
 @font-face{
     font-family: 'Fertigo';
-    src: url(fonts/Fertigo-Pro/Fertigo_PRO-webfont.ttf) format('truetype');
+    src: url(../css/fonts/Fertigo-Pro/Fertigo_PRO-webfont.ttf) format('truetype');
 }
 
 body{
