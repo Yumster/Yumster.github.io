@@ -15,7 +15,6 @@ html {
 body{
     width: 100%;
     background-color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
     color: #333;
 }
 
@@ -53,7 +52,7 @@ header{
 nav{
     clear: both;
     width: 100%;
-    padding: 10px;
+    padding:10px;
     border-top: 2px solid #c3c3c3;
 }
 
@@ -61,13 +60,13 @@ nav li{
     display: inline;
     float: left;
     margin-right: 18px;
+    margin-bottom: 20px;
+    
     padding: 2px;
 }
 
 .login{
     width: auto;
-    margin-top: -20px;
-    margin-bottom: 20px;
     float: right;
 }
 
@@ -287,7 +286,7 @@ blockquote{
 .square-left li{
     text-align: center;
     width: 150%;
-    height: 50px;
+    height: 30px;
     margin-bottom: 20px;
     margin-left: -50px;
     padding: 5px;
@@ -322,8 +321,10 @@ blockquote{
 }
 
 .square-left a:hover{
-    background-image: url(../img/hover.png)no-repeat;
-    position: absolute;
+    background-image: url(../img/hover.png);
+    background-position: -20px;
+    z-index: 1;
+    opacity: .5;
 }
 
 /* RIGHT */
@@ -342,7 +343,8 @@ blockquote{
 .content-right h3{
     margin-top: 40px;
     color: #fd6300;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
 }
 
 .content-right p:nth-of-type(2n+1){
@@ -662,8 +664,9 @@ form input:nth-of-type(5){
 }
 
 .left-content h2{
-    color: #bababa;
     margin-top: -20px;
+    color: #717171;
+    font-weight: 100;
 }
 .right-content{
     width: 25%;
@@ -696,6 +699,12 @@ form input:nth-of-type(5){
 
 .column a{
     color: #808080;
+}
+
+.column a:hover{
+    background-image: url(../img/hover.png);
+    background-position: left absolute;
+    z-index: 1;
 }
 
 .column h4{
