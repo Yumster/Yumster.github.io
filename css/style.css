@@ -519,7 +519,6 @@ article>div:last-of-type{
 }
 
 /* CONTACT___________________________________________________________________ */
-/* LEFT side-bar */
 .left-bar{
     width: 30%;
     float: left;
@@ -558,7 +557,6 @@ article>div:last-of-type{
     margin-top: -20px;
 }
 
-/* RIGHT CONTENT */
 .contact input{
     background-color: rgba(152, 152, 152, 0.04);
     width: 55%;
@@ -592,17 +590,15 @@ form input:nth-of-type(5){
 }
 
 /* PORTFOLIO_________________________________________________ */
-/* LEFT side-bar */
 .square-bottom{
     width: 50%;
     line-height: 20px;
     margin-left: 5px;
 }
 
-/* RIGHT content */
 .frame{
     background-color: #f4f4f4;
-    padding: 10px;
+    padding: 15px;
     margin-bottom: 20px;
 }
 
@@ -624,6 +620,7 @@ form input:nth-of-type(5){
 
 .frame{
     clear: both; 
+    height: inherit;
 }
 
 .frame.first{
@@ -631,32 +628,12 @@ form input:nth-of-type(5){
     margin-top: 40px;
 }
 
-.frame.first figure{
-    width: 40%;
-    float: left;
-    margin: 10px;
-}
-
-.frame.second figure{
-    width: 15%;
-    float: left;
-    margin: 10px;
-}
-
-.frame.third figure{
-    width: 15%;
-    float: left;
-    margin: 10px;
-}
-
-.frame.forth figure{
-    width: 15%;
+.frame figure{
     float: left;
     margin: 10px;
 }
 
 /* PRICING_________________________________________________ */
-/* MAIN CONTENT */
 .buy-now{
    width: 70%; 
 }
