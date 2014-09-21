@@ -343,17 +343,11 @@ bottom-content img{
     position: absolute;
 }
 
-.leftbar-bottom{
-    width: 60%;
-    line-height: 20px;
-    margin-left: 5px;
-}
 
 /* RIGHT */
 .content-right{
-    width: 75%;
+    width: 70%;
     float: left;
-    margin-left: -60px;
     padding: 10px;
 }
 
