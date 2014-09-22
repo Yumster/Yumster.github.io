@@ -220,7 +220,7 @@ li{
 
 /* CENTERING each content */
 .centered{
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -228,6 +228,7 @@ li{
 .main-background{
     background: linear-gradient(rgb(229, 229, 229) 20%, rgb(253, 253, 253) 50%);
     padding-top: 30px;
+    overflow: hidden;
 }
 
 .main-content{
@@ -241,10 +242,11 @@ li{
 /* REVIEW area */
 .bottom-content{
     clear: both;
+    width: 90%;
     background-color: #f7f7f7;  
     border: 10px solid #d1d1d1;
-    padding: 10px;
-    margin-bottom: 30px;
+    padding: 20px;
+    margin: 30px auto;
 }
 
 h4{
@@ -275,8 +277,7 @@ blockquote{
 .leftbar{
     width: 20%;
     float: left;
-    margin-right: 20px;
-    margin-bottom: 30px;
+    margin: 20px;
 }
 
 .square-left{
@@ -325,8 +326,7 @@ blockquote{
 .square-left a:hover{
     background-image: url(../img/hover.png);
     background-position: -20px;
-    z-index: 1;
-    opacity: .5;
+    width: 50px;
 }
 
 /* RIGHT */
@@ -546,7 +546,7 @@ article>div:last-of-type{
 .left-bar{
     width: 20%;
     float: left;
-    margin-right: 20px;
+    margin: 30px;
 }
 
 .square{
@@ -610,13 +610,13 @@ form input:nth-of-type(5){
 
 .map-right{
     width: 35%;
-    float: right;
-    margin-top: 60px;
+    float: left;
+    margin-top: 80px;
 }
 
 /* PORTFOLIO_________________________________________________ */
 .square-bottom{
-    width: 50%;
+    width: 80%;
     line-height: 20px;
     margin-left: 5px;
 }
@@ -707,8 +707,6 @@ form input:nth-of-type(5){
 
 .column a:hover{
     background-image: url(../img/hover.png);
-    background-position: left absolute;
-    z-index: 1;
 }
 
 .column h4{
