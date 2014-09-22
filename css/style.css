@@ -543,42 +543,26 @@ article>div:last-of-type{
 }
 
 /* CONTACT___________________________________________________________________ */
-.left-bar{
-    width: 20%;
-    float: left;
-    margin: 30px;
-}
-
-.square{
-    width: 100%;
-    padding: 5px;
-    background-color: #f4f4f4;
-    text-align: left;
-}
-.europe{
+.inside-square{
     width: 100%;
 }
 
-.asia{
-    width: 100%;
-}
-
-.square h4 {
+.inside-square h4 {
     color: #4e4e4e;
     font-weight: 100;
     margin-left: 10px;
 }
 
-.square h5{
+.inside-square h5{
     margin-top: 5px;
 }
 
-.square li{
-    margin-left: -30px;
+.inside-square li{
+    text-align: left;
     color: #505050;
 }
 
-.square li:nth-child(2n+2){
+.inside-square li:nth-child(2n+2){
     margin-top: -20px;
 }
 
