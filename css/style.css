@@ -72,6 +72,8 @@ nav li{
 nav li a{
     color: rgb(126, 124, 124);
     border: 10px;
+    padding: 2px;
+    border-right: 2px solid transparent;
 }
 
 nav a:hover{
@@ -328,7 +330,6 @@ blockquote{
     position: absolute;
     margin-left: -110px;
     margin-top: -10px;
-    z-index: 3;
     width: 230px;
     height: 50px;
 }
@@ -692,19 +693,19 @@ form input:nth-of-type(5){
 
 .column a{
     color: #808080;
+    display: block;
+    width: 230px;
+    height: 50px;
 }
 
 .column a:hover{
     background-image: url(../img/hover.png);
-    z-index: 3;
-    width: 230px;
-    height: 50px;
 }
 
 .column h4{
     margin-top: -10px;
     color: #6a6363;
-    font-family: "open sans condensed";
+    font-family: "open sans condensed";  
 }
 
 .column ul{
@@ -728,9 +729,8 @@ form input:nth-of-type(5){
 }
 
 .price p{
-    width: 50%;
-    margin-top: 30px;
-    margin-left: -15px;
+    width: 45%;
+    margin-top: 25px;
     color: #9d9d9d;
 }
 
