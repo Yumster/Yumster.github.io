@@ -583,7 +583,7 @@ form input:nth-of-type(5){
 }
 
 .info-area{
-    width: 100%;
+    width: 70%
     overflow: hidden;
 }
 
@@ -593,7 +593,7 @@ form input:nth-of-type(5){
 }
 
 .map-right{
-    width: 35%;
+    width: 30%;
     float: left;
     margin-top: 80px;
 }
