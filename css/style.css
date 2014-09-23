@@ -560,6 +560,7 @@ article>div:last-of-type{
 .inside-square li{
     text-align: left;
     color: #505050;
+    margin-top: -20px;
 }
 
 .inside-square li:nth-child(2n+2){
