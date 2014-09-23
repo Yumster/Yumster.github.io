@@ -289,10 +289,10 @@ blockquote{
 .square-left li{
     text-align: center;
     width: 100%;
-    height: 30px;
+    height: 50px;
     margin-bottom: 20px;
     margin-left: -20px;
-    padding: 5px;
+    padding: 10px;
     color: #505050;
 }
 
@@ -325,8 +325,12 @@ blockquote{
 
 .square-left a:hover{
     background-image: url(../img/hover.png);
-    background-position: -20px;
-    width: 50px;
+    position: absolute;
+    margin-left: -110px;
+    margin-top: -10px;
+    z-index: 3;
+    width: 230px;
+    height: 50px;
 }
 
 /* RIGHT */
@@ -692,6 +696,9 @@ form input:nth-of-type(5){
 
 .column a:hover{
     background-image: url(../img/hover.png);
+    z-index: 3;
+    width: 230px;
+    height: 50px;
 }
 
 .column h4{
