@@ -476,9 +476,10 @@ footer{
     }
     
     .main-list a {
-        height: 70px;
+        height: 80px;
         font-size: 1.5rem;
         text-align: center;
+        margin-top: 30px;
     }
     
     .img-1 {
