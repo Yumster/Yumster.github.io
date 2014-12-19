@@ -1,0 +1,514 @@
+/* CSS STYLESHEET */
+/* set max width
+** create breaks when article is long, link in texts; what's meaningful
+*/
+
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script:400,700);
+@import url(http://fonts.googleapis.com/css?family=Hind:400,300,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Sintony:400,700);
+@import url(http://fonts.googleapis.com/css?family=Eagle+Lake);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic);
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {			
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    background-color: #f7f7f7;
+    width: 100%;
+}
+
+.title-lust {
+    margin-left: 45%;
+    width: 10%;
+}
+
+.brush {
+    width: 20%;  
+    margin-left: -15%;
+}
+
+nav {
+    background-color: #f7f7f7;
+    padding: 10px;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 45%;
+    padding: 10px;
+}
+
+nav li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin-left: 9%;
+    padding-left: 10%;
+    list-style: none;
+    display: inline;
+}
+
+.main-list {
+    background-color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 55px;
+    overflow: hidden;
+    margin-top: 1px;
+}
+
+.main-list ul {
+    width: 100%;
+}
+
+.main-list li {
+    display: inline-block;
+    list-style: none;
+    float: left;
+    font-family: 'Droid Serif', serif;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 30%;
+    padding: 10%;
+    margin-top: 2%;
+    margin-left:3%;
+    border: 10px solid #1f0707;
+}
+
+.main-list li a {
+    background-color: rgba(8, 91, 121, 0.65);
+    display: block;
+    width: 100%;
+    color: #fff7f7;
+    padding: 20px;
+}
+
+.main-list li a:hover {
+    background-color: rgba(212, 0, 0, 0.65);
+}
+
+
+.img-1 {
+    background-image: url(../img/food.png);  
+}
+
+.img-2 {
+    background-image: url(../img/killer.jpg);  
+}
+
+.img-3 {
+    background-image: url(../img/lust-moneky.JPG);  
+}
+
+.img-4 {
+    background-image: url(../img/oconel-lip-copy.jpg);  
+}
+
+.img-5 {
+    background-image: url(../img/bible-sin.png);  
+}
+
+.img-6 {
+    background-image: url(../img/monroe.jpg);  
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #525151;
+}
+
+a:visited {
+    color: #143b00;
+}
+
+a:hover {
+    color: #f85f00;
+}
+
+a li:hover {
+    color: #7b0353;
+}
+
+.site-link:hover {
+    color: #f85f00;
+    border-bottom: 1px solid #f85f00;
+}
+
+a:active {
+    color: #f85f00;
+}
+
+
+/* Article & Essay page */
+.article-header .title-lust {
+    margin-left: 55px;
+    width: 15%;
+}
+
+.article-header .brush{
+    width: 15%;
+    margin-left: -16%;
+}
+
+.article-header {
+    background-color: #fff;
+}
+
+.article-nav {
+    background-color: #fff;
+    margin-top: -3%;
+    box-shadow: 0 1px #fff;
+}
+.article-nav ul {
+    margin-left: 50%;
+}
+
+.page-background.page1{
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/food-gray.png);
+    z-index: -1;
+}
+
+.page-background.page2{
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/killer.jpg);
+}
+
+.page-background.page3{
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/lust-moneky-gray.jpg);
+}
+
+.page-background.page4{
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/oconel-lip-gray.jpg);
+}
+
+.page-background.page5{
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/bible-sin-gray.png);
+}
+
+.page-background.page6{
+    width: 100%;
+    position: absolute;
+    background-image: url(../img/monroe-gray.jpg);
+}
+
+.page-wrapper {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.99);
+    width: 85%;
+    margin: 5% auto;
+}
+
+article {
+    width: 65%;
+    float: left;
+    margin-left: 10%;
+    padding: 50px;
+}
+
+.title-space {
+    width: 70%;
+    margin-top: 7%;
+    margin-left: 13.7%;
+    margin-bottom: -5%;
+}
+
+h1 {
+    font-family: 'Droid Serif', serif;
+    font-size: 3.2rem;
+    width: 80%;
+}
+
+.next-title {
+    width: 85%;
+    margin-top: -42px;
+}
+
+h2 {
+    font-family: 'Droid Serif', serif;
+    margin:50px 0;
+    color: #655376;
+}
+
+h3 {
+    font-family: 'Sintony', sans-serif;
+    color: #d66;
+    margin-top: -30px;
+}
+
+h4 {
+    font-family: 'Sintony', sans-serif;
+    color: #7b7a7a;
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+
+h5 {
+    font-family: 'Droid Serif', serif;
+    font-size: 1.2rem;
+    margin: 40px 0 0  0;
+    color: #655376; 
+}
+
+blockquote {
+    font-family: 'Lora', serif;
+    color: #215674;
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 1.3;
+}
+
+.quote {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    margin-top: -15px;
+    margin-left: 45px;
+}
+
+.emphasis {
+    font-family: 'Lora', serif;
+    font-weight: 700;   
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.pop {
+    color: red;
+    font-family: 'Droid Serif', serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.diff {
+    font-weight: 700;
+}
+
+.by {
+    color: #a3a3a3;
+    font-size: 14px;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+article p:first-child:first-letter {
+    color: #f41414;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+.big-text {
+    color: #f41414;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-right: 2px; 
+}
+
+.site-link {
+    color: #5396d3;
+    display: inline-block;
+    line-height: 20px;
+    border-bottom: 1px solid #034277;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    margin-top: 5%;
+    margin-left: 10px;
+}
+
+.related-title {
+    font-size: 16px;
+    color: #7e7c7c;
+    font-weight: lighter;
+    margin-bottom: -10px;
+}
+
+.related-article {
+    margin-top: 20px;
+    margin-left: -30px; 
+}
+
+.related-article li{
+    font-family: 'Sintony', sans-serif;
+    color: #0d24a8;
+    display: block;
+    padding: 2px;
+    font-weight: 100;
+    width: 63%;
+}
+
+footer{
+    background-color: #d6d6d6;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    clear: both;
+}
+
+@media only screen and (max-width: 960px) {
+    .title-lust {
+        width: 15%;
+    }
+    
+    .brush {
+        width: 20%;
+        margin-left: -18%;
+    }
+    
+    nav li {
+        display: inline-block; 
+        width: 30%;
+        font-size: 1.1rem;
+        text-align: center;
+        padding-left: 50px;
+        margin: 0 auto;
+    }
+    
+    .main-list li {
+        width: 90%;
+        height: 350px;
+        display: block;
+    }
+    
+    .main-list a {
+        height: 80px;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .img-1 {
+        background-image: url(../img/food.png);
+        background-size: 100%;
+    }
+
+    .img-2 {
+        background-image: url(../img/killer.jpg); 
+        background-size: 100%;
+    }
+
+    .img-3 {
+        background-image: url(../img/lust-moneky.JPG);
+        background-size: 100%;
+    }
+
+    .img-4 {
+        background-image: url(../img/oconel-lip-copy.jpg);
+        background-size: 100%;
+    }
+
+    .img-5 {
+        background-image: url(../img/bible-sin.png);
+        background-size: 100%;
+    }
+
+    .img-6 {
+        background-image: url(../img/monroe.jpg); 
+        background-size: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .title-lust {
+        width: 28%;
+        margin-left: 37%;
+    }
+    
+    .brush {
+        width: 33%;
+        margin-left: -32%;
+    }
+    
+    nav li {
+        display: block; 
+        width: 100%;
+        font-size: 1.1rem;
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .main-list li {
+        width: 98%;
+        height: 250px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .main-list a {
+        height: 80px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .img-1 {
+        background-image: url(../img/food.png);
+        background-size: 150%;
+    }
+
+    .img-2 {
+        background-image: url(../img/killer.jpg); 
+        background-size: 150%;
+    }
+
+    .img-3 {
+        background-image: url(../img/lust-moneky.JPG);
+        background-size: 140%;
+    }
+
+    .img-4 {
+        background-image: url(../img/oconel-lip-copy.jpg);
+        background-size: 150%;
+    }
+
+    .img-5 {
+        background-image: url(../img/bible-sin.png);
+        background-size: 150%;
+    }
+
+    .img-6 {
+        background-image: url(../img/monroe.jpg); 
+        background-size: 150%;
+    }
+
+}
