@@ -470,13 +470,13 @@ footer{
 
     .main-list li {
         width: 98%;
-        height: 200px;
+        height: 180px;
         display: block;
         margin-bottom: 10px;
     }
     
     .main-list a {
-        height: 80px;
+        height: 70px;
         font-size: 1.5rem;
         text-align: center;
     }
